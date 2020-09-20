@@ -9,7 +9,7 @@ from mnist import MNIST
 
 # Change info
 batch_size = 100
-path = "./Dataset/Clothes dataset"
+path = "./Clothes dataset"
 
 # Load test data
 data_load = MNIST(path)

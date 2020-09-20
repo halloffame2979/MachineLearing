@@ -10,7 +10,7 @@ import numpy as np
 batch_size = 100
 learning_rate = 0.1
 epochs = 10
-path = "./Dataset/Clothes dataset"
+path = "./Clothes dataset"
 # Load train data
 data_load = MNIST(path)
 data_load.load_training()
